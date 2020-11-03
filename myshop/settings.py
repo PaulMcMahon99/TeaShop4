@@ -66,7 +66,7 @@ CACHES = {
 
 # There are no allowed hosts at present
 # UPDATED
-ALLOWED_HOSTS = ['nameless-sierra-12731.herokuapp.com', '.herokuapp.com']
+ALLOWED_HOSTS = ['nameless-sierra-12731.herokuapp.com', '127.0.0.1', '.herokuapp.com',]
 
 # Applications used in the project
 INSTALLED_APPS = [
