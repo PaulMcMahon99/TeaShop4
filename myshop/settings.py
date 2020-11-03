@@ -66,7 +66,7 @@ CACHES = {
 
 # There are no allowed hosts at present
 # UPDATED
-ALLOWED_HOSTS = ['nameless-sierra-12731.herokuapp.com', '127.0.0.1', '.herokuapp.com',]
+ALLOWED_HOSTS = ['nameless-sierra-12731.herokuapp.com', 'warm-stream-88728.herokuapp.com', '127.0.0.1', '.herokuapp.com',]
 
 # Applications used in the project
 INSTALLED_APPS = [
@@ -204,3 +204,8 @@ BRAINTREE_CONF = braintree.Configuration(
     BRAINTREE_PUBLIC_KEY,
     BRAINTREE_PRIVATE_KEY
 )
+
+# HEROKU SETTINGS
+
+import django_heroku
+django_heroku.settings(locals())
